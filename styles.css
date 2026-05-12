@@ -2,7 +2,7 @@
         margin: 0;
         font-family: 'Poppins', sans-serif;
         overflow: hidden; /* importante: sin scroll */
-        overflow-y: auto;
+        
     }
     
     /* ✨ fondo mágico */
@@ -397,21 +397,27 @@
     }
         
     .hero-Info {
-        min-height: 100svh;
-        min-height: 100vh;
+            min-height: 100svh;
+            min-height: 100vh;
     
-        display: flex;
-        flex-direction: column;
+            display: flex;
+            flex-direction: column;
     
-        justify-content: center;
-        align-items: center;
+            justify-content: center;
+            align-items: center;
     
-        text-align: center;
+            text-align: center;
     
-        padding: 40px 20px;
+            padding: 40px 20px;
     
-        background-size: cover;
-        background-position: center;
+            background-size: cover;
+            background-position: center;
+        }
+    
     }
-    
+
+    #pascal {
+    width: 50px;
+    opacity: 0.8;
     }
+
