@@ -389,35 +389,5 @@
         object-fit: cover;
     }
     
-    @media (max-width: 768px) {
-    
-    .hero-pro{
-        justify-content: center;
-        gap: 20px;
-    }
-        
-    .hero-Info {
-            min-height: 100svh;
-            min-height: 100vh;
-    
-            display: flex;
-            flex-direction: column;
-    
-            justify-content: center;
-            align-items: center;
-    
-            text-align: center;
-    
-            padding: 40px 20px;
-    
-            background-size: cover;
-            background-position: center;
-        }
-    
-    }
-
-    #pascal {
-    width: 50px;
-    opacity: 0.8;
-    }
+ 
 
