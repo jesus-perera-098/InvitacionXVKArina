@@ -389,5 +389,69 @@ body {
     object-fit: cover;
 }
 
+@media (max-width: 768px) {
+
+.letter-img {
+    width: 280px;
+}
+
+.lantern {
+    width: 10px;
+    height: 16px;
+}
+
+.hero-pro {
+    padding: 20px;
+    background-position: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.go-info {
+    bottom: 30px;
+}
+
+.go-info button {
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+.locations-cards {
+    flex-direction: column;
+    align-items: center;
+}
+
+.location-card {
+    width: 80%;
+}
+
+.timer {
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.timer span {
+    font-size: 28px;
+}
+
+#introVideo {
+    object-fit: cover;
+}
+
+.hero-Info h2,
+.locations-box h2,
+.countdown-box h2 {
+    font-size: 28px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+}
+
+
+
 
 
